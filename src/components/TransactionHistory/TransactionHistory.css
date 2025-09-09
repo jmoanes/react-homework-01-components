@@ -1,0 +1,42 @@
+.transaction-history {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.transaction-history thead {
+  background: #4a90e2;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 14px;
+  text-align: center;
+}
+
+.transaction-history tbody tr {
+  transition: background 0.2s ease;
+}
+
+.transaction-history tbody tr:nth-child(even) {
+  background: #f9fafc;
+}
+
+.transaction-history tbody tr:hover {
+  background: #eaf3ff;
+}
+
+.transaction-history td {
+  font-size: 15px;
+  color: #333;
+}

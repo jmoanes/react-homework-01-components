@@ -1,0 +1,65 @@
+.statistics {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statistics h2 {
+  margin: 0;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d2d2d;
+  border-bottom: 1px solid #f0f0f0;
+  background: #f9fafc;
+}
+
+.statistics ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statistics li {
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.statistics li span {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 6px;
+  color: #2d2d2d;
+}
+
+/* 🎨 Add subtle background colors for variety */
+.statistics li:nth-child(1) {
+  background: #e6f2ff;
+}
+.statistics li:nth-child(2) {
+  background: #fcefee;
+}
+.statistics li:nth-child(3) {
+  background: #eafaf1;
+}
+.statistics li:nth-child(4) {
+  background: #fff9e6;
+}
+
+.statistics li:hover {
+  filter: brightness(0.95);
+}
